@@ -1,0 +1,39 @@
+{
+	"manifest_version" : 2,
+	"name" : "What'sUP",
+	"version" : "1",
+	"author":"Noor Ul Haq facebook.com/Trance303 ; github.com/Noor0",
+	"description" : "A very simple chrome weather extension",
+	"icons":{
+		"16": "weatherclr16.png",
+        "48": "weatherclr48.png",
+        "128": "weatherclr128.png"},
+    "browser_action":{
+    	"default_icon":{
+    		"16": "weatherclr16.png",
+        	"48": "weatherclr48.png"
+    	},
+    	"default_title": "what'sUP",
+        "default_popup": "popup.html"
+    },
+    "permissions" : [
+    	"management",
+    	"geolocation"
+    	// "contentSettings" 
+    ],
+   //  "chrome_url_overrides": {
+   //  	"newtab": "popup.html"
+  	// },
+  // 	"content_scripts": [
+  //   {
+  //     "css": "style.css",
+  //     "js": "logic.js"
+  //   }
+  // ],
+  "minimum_chrome_version" : "29",
+  "offline_enabled" : false,
+  "incognito" : "split"
+  // "background": {
+  //   "scripts": ["logic.js"]
+  // }
+}
