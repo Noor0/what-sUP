@@ -9,7 +9,6 @@ body{
 	color: white;
 	padding:0px;
 	margin: 0px;
-	position: absolute;
 }
 
 #main{
@@ -45,6 +44,7 @@ body{
 }
 
 .container{
+	position:absolute;
 	top:25%;
 	width: 450px;
 	height: 580px;
