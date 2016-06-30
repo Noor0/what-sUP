@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What'sUP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="owfont-master/css/owfont-regular.css">
+
+		<!-- <link href="https://fonts.googleapis.com/css?family=Athiti|Bitter|Oxygen|Scope+One|Work+Sans" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+	<div id="main">
+
+		<div class="city-date">
+			<p id="city-para" class="top"><span id="city"></span><br/><sub id="time">0:00 AM</sub>
+			<br /><br />
+			<span id="temprature"><sup>o</sup>C</span>	
+			</p>
+
+			<p id="date-para" class="top"><span id="day-span"></span><br/><sub id="the-date">0/0/0</sub></p>
+			
+		</div>
+		<div id="icon">
+			<!-- <img style="color:white;" src="images/Sun.svg"> -->
+			<i id="the-icon" class="owf owf-804"></i>
+		</div>
+		<p id="description"></p>
+		<p id="more-weather"></p>
+	</div>
+
+		<div id="main2">
+			<div class="params">
+				<img src="images/rain.png"><br />
+				<p class="amplitude"></p>
+			</div>
+			<div class="params">
+				<img src="images/wind.png"><br />
+				<p class="amplitude"></p>
+			</div>
+			<div class="params">
+				<img src="images/compass.png"><br />
+				<p id="bit" class="amplitude"></p>
+			</div>
+			<div class="params">
+				<img src="images/bar2.png"><br />
+				<p class="amplitude"></p>
+			</div>
+			<div class="params">
+				<img src="images/cloud.png"><br />
+				<p class="amplitude"></p>
+			</div>
+		</div>
+
+		<div class="seprator"></div>
+
+</div>
+
+<script src="logic.js"></script>
+</body>
+<!-- 
+api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=1111111111 
+
+api.openweathermap.org/data/2.5/find?q=London&units=metric
+
+API key
+&APPID=0e6001dae144827b90a10108c09b8807 
+
+http://api.openweathermap.org/data/2.5/weather?q=Karachi&units=metric&APPID=0e6001dae144827b90a10108c09b8807
+
+-->
+</html>
