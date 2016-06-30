@@ -9,6 +9,9 @@ body{
 	color: white;
 	padding:0px;
 	margin: 0px;
+	position: absolute;
+	top: 10%;
+	left: 30%;
 }
 
 #main{
