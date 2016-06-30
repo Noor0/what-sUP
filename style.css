@@ -39,9 +39,7 @@ body{
 }
 
 .container{
-	position:absolute;
-	top:25%;
-	left:25%;
+	margin-top:25%;
 	width: 450px;
 	height: 580px;
 	margin:auto;
