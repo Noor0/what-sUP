@@ -10,4 +10,4 @@ To install download .crx file from [here](https://github.com/Noor0/what-sUP/blob
  2. simply drag and drop the .crx file into the tab where you typed chrome://extensions
  3. enjoy!
 
-![ScreenShot] (https://raw.githubusercontent.com/Noor0/what-sUP/master/Capture.PNG "screen shot")
+![ScreenShot] (https://raw.githubusercontent.com/Noor0/what-sUP/master/cap.PNG "screen shot")
