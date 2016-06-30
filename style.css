@@ -10,8 +10,6 @@ body{
 	padding:0px;
 	margin: 0px;
 	position: absolute;
-	top: 10%;
-	left: 30%;
 }
 
 #main{
@@ -47,6 +45,7 @@ body{
 }
 
 .container{
+	top:25%;
 	width: 450px;
 	height: 580px;
 	margin:auto;
