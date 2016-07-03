@@ -1,11 +1,6 @@
 body{
 	background-color:white;
-	/*font-family: 'Work Sans', sans-serif;
-	font-family: 'Bitter', serif;*/
 	font-family: 'Titillium Web', sans-serif;
-	/*font-family: 'Oxygen', sans-serif;*/
-	/*font-family: 'Athiti', sans-serif;
-	font-family: 'Scope One', serif;*/
 	color: white
 }
 
@@ -15,7 +10,7 @@ body{
 }
 
 #main2{
-	background-color:#16a085;/*#e74c3c * #d35400 */
+	background-color:#16a085;
 	width: 100%;
 	min-height: 20%;
 }

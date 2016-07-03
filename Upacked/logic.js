@@ -46,12 +46,6 @@ function go(){
 		};
 
 		document.getElementById('day-span').innerHTML=day;
-		if (moreThan10){
-			console.log('in morethan101010');
-			// geo.getCurrentPosition(function(positionObj){
-			// 	var coord = positionObj.coords;
-					
-		}
 		var timeCheck = setInterval(settingTime, 10000);
 	}
 		
@@ -97,13 +91,5 @@ function settingTime(){
 		else{
 			document.getElementById('time').innerHTML=hour+":"+d.getMinutes()+" AM";
 		}
-		// minutes++;
-
-		// if (minutes == 10) {
-		// 	minutes = 0;
-		// 	moreThan10 = true
-		// }
-		// else if(minutes < 10)
-		// 	moreThan10 = false;
 
 	}
