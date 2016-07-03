@@ -210,9 +210,32 @@ body{
 
 	.top{
 		width: 120px;
-		height: 20px;
-		font-size:18px;
+		height: 18px;
+		font-size:16px;
 		line-height:16px;
-		margin-top: 5px;
+		margin-top: 0px;
 	}
+	#temprature{
+		display: block;
+		font-size: 48px;
+		margin-top: 0px;
+		float: right;
+	}
+	.city-date{
+		height: 100px;
+	}
+
+	#city-para{
+		float:right;
+		text-align:  right;
+		padding:6px 15px 0px 0px;
+
+	}
+
+	#date-para{
+		float:left;
+		text-align:left;
+		padding:6px 0px 0px 15px;
+	}
+
 }
