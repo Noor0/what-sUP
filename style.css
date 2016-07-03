@@ -121,10 +121,6 @@ body{
 	background-color: #2ecc71;
 }
 
-#bit{
-	margin-top:1.5px;
-}
-
 @media screen and (max-width: 800px) {
     .container{
 		width: 100%;
@@ -154,16 +150,7 @@ body{
 		clear: both;
 	}
 
-	#description{
-		font-size:24px;
-		margin-top: -60px;
-		margin-bottom: 2px;
-	}
-
-	#more-weather{
-		font-size:18px;
-		margin: 2px;
-	}
+	
 }
 
 @media screen and (max-width: 600px) {
@@ -209,5 +196,15 @@ body{
 		height: 210px;
 		clear:both;
 		overflow: hidden;
+	}
+	#description{
+		font-size:20px;
+		margin-top: -60px;
+		margin-bottom: 2px;
+	}
+
+	#more-weather{
+		font-size:16px;
+		margin: 2px;
 	}
 }
