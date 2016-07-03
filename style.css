@@ -151,4 +151,7 @@ body{
 		height: 23%;
 		clear: both;
 	}
+	#the-icon{
+		font-size: 180px;
+	}
 }
